@@ -14,6 +14,9 @@
   </head>
   
   <body class="<%= page_classes %>">
+    <%= partial "common/header" %>
+    <%= partial "common/menu" %>
     <%= yield %>
+    <%= partial "common/footer" %>
   </body>
 </html>
