@@ -1,9 +1,8 @@
 @charset "utf-8";
 
 body {
-  background: #d4d4d4 url("../images/background.png");
   text-align: center;
-  font-family: sans-serif; }
+  font-family: 'Questrial', sans-serif; }
 
 h1 {
   color: rgba(0, 0, 0, .3);
@@ -53,3 +52,165 @@ h1 {
     -webkit-transform: scale(1);
   }
 }
+
+
+
+/* application styles */
+
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+
+.header{
+  margin-top: 20px;
+  height : 200px; }
+
+.logo {
+  float: left;
+  height: 150px;
+}
+.caption  {
+  float: right;
+  margin-top: 40px;
+  width: 700px;
+}
+.menu {
+ margin-top: 20px;
+ margin-bottom: 30px;
+ height: 80px;
+ border-top: 1px solid #ddd;
+ padding: 20px 0px;
+ border-bottom: 1px solid #ddd;
+ background: #efefef;
+}
+.menu ul {
+  padding: 0px;
+  margin: 0 auto;
+}
+.menu ul li {
+  float: left;
+  list-style-type:none;
+  margin: 20px 0;
+}
+.menu ul li a {
+  height  : 30px;
+  padding: 5px 20px;
+  display: block;
+  color: green;
+  text-decoration: none;
+  float: left; 
+  line-height: 30px;
+  font-size: 20px;
+  text-shadow: 1px 0 #ddd;
+}
+
+.menu ul li a:hover {
+  text-decoration: none;
+  background: #efefef;
+  border-radius: 4px;
+}
+.footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer ul {
+  padding: 0px;
+  margin: 0px auto;
+  display: block;
+  float: center;
+}
+.footer ul li {
+  float: left;
+  list-style-type: none;
+  margin: 20px 0;
+}
+.footer ul li a {
+  height: 20px;
+  padding: 5px 20px;
+  color: gray;
+  font-size: 14px;
+  text-shadow: 1px #ddd;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.content {
+  width: 1000px;
+  margin: 0 auto;
+  min-height: 300px;
+ 
+}
+.content p { 
+  font-size: 16px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  color: #000;
+}
+.content h2 {
+  font-size: 30px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: #000;
+}
+.slider {
+  width: 1000px;
+  height: 200px;
+  background: #dfdfdf;
+  margin: 30px 0;
+}
+.trailblocks .block {
+  width: 261px;
+  padding: 0 20px;
+  margin-right: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  float: left;
+  margin-right: 30px;
+  box-shadow: 0px 1px #ddd;
+}
+.trailblocks .block .heading {
+  background: #efefef;
+  padding: 20px;
+  width: 261px;
+  margin-left: -20px;
+  margin-top: 0px;
+  display: block;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  text-align: left;
+}
+.trailblocks .block p {
+  width: 260px;
+  text-align: left;
+}
+.last.block {
+  margin-right: 0px;
+  float: right; }
+.wrapper {
+  width: auto;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
+.social-links img {
+  float: center;
+  margin-right: 20px;
+}
+
+.caption p {
+  font-size: 30px;
+  font-weight: 300; 
+}
+
+
